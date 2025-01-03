@@ -1,0 +1,33 @@
+.subscribe {
+  border: 1px solid black;
+  margin-top: 10px;
+  background-color: #c2e6f4;
+  text-align: center;
+}
+
+.input {
+  color: grey;
+  padding: "30px 30px 30px 30px";
+  margin: 10px;
+  height: 30px;
+  border-radius: 5px;
+}
+
+.button {
+  background-color: #f8766e;
+  margin-bottom: 60px;
+  color: white;
+  width: 300px;
+  height: 40px;
+  border-radius: 5px;
+  font-size: larger;
+
+  border-radius: 5px;
+  &:hover {
+    background-color: darkgreen;
+  }
+}
+
+.form {
+  margin-top: 40px;
+}

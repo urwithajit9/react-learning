@@ -1,0 +1,29 @@
+.namepanel {
+  display: flex;
+  align-items: center; /* Align items vertically in the center */
+  gap: 8px; /* Add spacing between the icon and the text */
+}
+
+.name {
+  font-weight: bold;
+  margin-right: 0;
+}
+
+.jobtitle {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  margin: 0; /* Remove default margin from <p> */
+}
+
+.profileimage {
+  justify-content: left;
+  border-radius: 50%;
+  height: 180px;
+  width: 180px;
+  margin-top: 30px;
+  border: 2px solid gray;
+}
+
+.cardbody {
+  justify-content: left;
+}

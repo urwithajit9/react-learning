@@ -1,0 +1,16 @@
+.skillsPanel {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.joindate {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+}
+
+.jobContainer {
+  margin-top: 10px;
+  display: flex; /* Use flexbox for horizontal alignment */
+  align-items: center; /* Align items vertically in the center */
+  gap: 8px; /* Add spacing between the icon and the text */
+}

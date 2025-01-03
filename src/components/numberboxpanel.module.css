@@ -1,0 +1,16 @@
+.numberboxpanel {
+  display: grid;
+  grid-template-columns: repeat(8, 10%); /* 8 equal columns */
+  grid-template-rows: repeat(
+    4,
+    100px
+  ); /* 4 equal rows, adjust height as needed */
+  column-gap: 1px; /* Reduced gap between columns */
+  row-gap: 2px; /* Adjust row gap as needed */
+  padding: auto;
+}
+
+.panelheading {
+  justify-content: center;
+  align-content: center;
+}
